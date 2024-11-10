@@ -13,6 +13,10 @@
 </script>
 </body>
 </html>
+
+
+
+
 <html>
 <body>
 <h1>Area of triangle using prompt 1.Function and display output using  alert() </h1>
@@ -28,6 +32,12 @@
 </script>
 </body>
 </html>
+
+
+
+
+
+
 <html>
 <body>
 <h1>Area of Circle using prompt 1.Function and display output using  alert() </h1>
