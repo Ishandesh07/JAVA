@@ -1,0 +1,45 @@
+<html>
+<body>
+<h1>Area of Rectangle using prompt 1.Function and display output using  alert() </h1>
+<h1>click the button to see the output </h1>
+<button onclick ="area()">Click Me </button>
+<script>
+    function area()
+{
+  let base=prompt("Enter the base");
+  let height=prompt("Enter the height");
+  alert("Area of rectangle : "+(base*height));
+}
+</script>
+</body>
+</html>
+<html>
+<body>
+<h1>Area of triangle using prompt 1.Function and display output using  alert() </h1>
+<h1>click the button to see the output </h1>
+<button onclick ="area()">Click Me </button>
+<script>
+    function area()
+{
+  let base=prompt("Enter the base");
+  let height=prompt("Enter the height");
+  alert((base*height)/2);
+}
+</script>
+</body>
+</html>
+<html>
+<body>
+<h1>Area of Circle using prompt 1.Function and display output using  alert() </h1>
+<h1>click the button to see the output </h1>
+<button onclick ="area()">Click Me </button>
+<script>
+    function area()
+{
+  let pie=3.14;
+  let radius=prompt("Enter the radius");
+  alert("Area of Circle ="+(pie*radius*radius));
+}
+</script>
+</body>
+</html>
