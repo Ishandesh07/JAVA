@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Array Manipulation</title>
+</head>
+<body>
+    <script>
+        // Create an array
+        let array = [1, 2, 3, 4, 5];
+
+        // Function to remove a specific element from the array
+        function removeElement(arr, element) {
+            return arr.filter(item => item !== element);
+        }
+
+        // Function to check if an array contains a specified value
+        function containsElement(arr, element) {
+            return arr.includes(element);
+        }
+
+        // Function to empty an array
+        function emptyArray(arr) {
+            arr.length = 0;
+            return arr;
+        }
+
+        // Example usage
+        document.write("Original array: " + array + "<br>");
+       
+        // Remove element 3
+        array = removeElement(array, 3);
+        document.write("After removing 3: " + array + "<br>");
+       
+        // Check if array contains 2
+        document.write("Contains 2: " + containsElement(array, 2) + "<br>");
+       
+        // Empty the array
+        array = emptyArray(array);
+        document.write("After emptying: " + array + "<br>");
+    </script>
+</body>
+</html>
